@@ -21,7 +21,7 @@ int uniquePaths(int m, int n)
 }
 int main()
 {
-	cout << uniquePaths(3,3) << endl;
+	cout << uniquePaths(5,5) << endl;
 	system("pause");
 	return 0;
 }
