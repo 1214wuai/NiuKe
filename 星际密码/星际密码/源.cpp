@@ -1,6 +1,9 @@
 #include<iostream>
 #include<vector>
-
+#define N 30;
+namespace N1 {
+#define N3 20;
+}
 using namespace std;
 
 vector<int> a = { 1,1 };
@@ -11,6 +14,8 @@ void a_init()
 }
 int main()
 {
+	cout << N;
+	cout << N3;
 	int n, t;
 	a_init();
 	while (cin >> n)
