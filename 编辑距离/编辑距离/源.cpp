@@ -35,7 +35,6 @@ int minDistance(string word1, string word2)
 }
 int main()
 {
-
 	cout << minDistance("haha", "hehe") << endl;
 	system("pause");
 	return 0;
