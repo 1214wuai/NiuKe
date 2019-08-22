@@ -103,7 +103,7 @@ int MinOfCut(string & s)
 }
 int main()
 {
-	string s("aaabaa");
+	string s("acabaa");
 	cout << MinOfCut(s) << endl;
 	system("pause");
 	return 0;

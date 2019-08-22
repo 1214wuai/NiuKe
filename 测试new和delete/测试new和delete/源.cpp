@@ -162,10 +162,31 @@ void Test2()
 //	static Singleton * m_pInstance;
 //};
 
+void test4()
+{
+	int a = 1;
+	int b = 2;
+	//a = a << 8;
+	//a = a + b;
+	//b = a >> 8;
+	//a = a & 0xff;
+	a = a ^ b;
+	b = a ^ b;
+	a = a ^ b;
+	printf("a = %d  b = %d\n", a, b);
+}
 int main()
 {
 	
-	Pint();
+	//Pint();
+	//string s2("asdfgh");
+	//string s1("asd");
+	//cout << s1.find(s1[0]) << endl;
+	//cout << s1.find('a') << endl;
+	//cout << s1.find("a") << endl;
+	//cout << s1.find('f') << endl;
+	//cout << s2.find(s1) << endl;
+	test4();
 	system("pause");
 	return 0;
 }
